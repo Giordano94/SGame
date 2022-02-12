@@ -1,0 +1,22 @@
+body{
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/CSs/images/snake-background.f9ebb996-4f9e-4d72-8e44-664287b94db9');
+}
+
+
+h1{
+    font-family:'Snake Chan' ;
+    color: chartreuse;
+    font-size: 50px;
+}
+
+@font-face {
+        font-family:'Snake Chan' ;
+        src: url('/CSs/fonts/Snake\ Chan.ttf') format('truetype');
+        font-weight: normal
+ }
